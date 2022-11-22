@@ -6,6 +6,9 @@
 
 body {
     background-color: #1F2937;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
 }
 
 .header {
@@ -36,6 +39,7 @@ a {
     background-color: #1F2937;
     color: white;
     padding: 30px 30px;
+    border: 0px;
 }
 
 .LHS1 {
@@ -57,4 +61,7 @@ button {
 
 .segment2 {
     background-color: white;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
 }
