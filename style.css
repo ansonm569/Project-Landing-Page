@@ -1,0 +1,60 @@
+* {
+    font-family: "RobotoRegular";
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1F2937;
+    height: 50px;
+}
+
+.header img {
+    border:#1F2937;
+    border-width: 2px;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+.segment1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    background-color: #1F2937;
+    color: white;
+    padding: 30px 30px;
+}
+
+.LHS1 {
+    max-width: 40%;
+    margin: 10px;
+}
+
+.RHS1 {
+    max-width: 40%;
+}
+
+button {
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: white;
+    border: 0px;
+    padding: 5px;
+}
+
+.segment2 {
+    background-color: white;
+}
