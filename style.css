@@ -19,6 +19,7 @@ body {
     height: 50px;
 }
 
+/* Logo */
 .header img {
     border:#1F2937;
     border-width: 2px;
@@ -28,36 +29,54 @@ body {
 a {
     text-decoration: none;
     color: white;
-    padding: 5px;
+    padding: 10px;
 }
+
+
+/* Segment 1 */
 
 .segment1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 15px;
     background-color: #1F2937;
     color: white;
     padding: 30px 30px;
     border: 0px;
 }
 
+.LHS1 h1 {
+    font-size: 48px;
+    font-weight: 800;
+    padding: 0;
+    margin: 0;
+    gap: 0;
+}
+
+.LHS1 p {
+    font-size: 18px;
+    padding: 0;
+}
+
 .LHS1 {
-    max-width: 40%;
+    padding: 30px;
     margin: 10px;
 }
 
 .RHS1 {
-    max-width: 40%;
+    padding: 30px;
 }
 
-button {
+.button1 {
     border-radius: 5px;
     background-color: #3882F6;
     color: white;
     border: 0px;
-    padding: 5px;
+    padding: 5px 20px;
+    font-weight: 900;
 }
+
+/* Segment 2 */
 
 .segment2 {
     display: flex;
@@ -72,8 +91,14 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 15px;
+    gap: 30px;
     flex-wrap: wrap;
+}
+
+.segment2 h1 {
+    font-size: 36px;
+    padding: 8px;
+    text-align: center;
 }
 
 .square-container {
@@ -83,6 +108,7 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0 0 15px 0;
 }
 
 .blue-box {
@@ -97,4 +123,91 @@ button {
 
 .square-container p {
     text-align: center;
+    font-size: 16px;
+}
+
+/* Segment 3 */
+
+.segment3 {
+    color: white;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 100px 0;
+    gap: 0;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.attribution {
+    font-size: 24px;
+    font-weight: 900;
+    align-self: flex-end;
+    color: #1F2937;
+}
+
+/* Segment 4 */
+
+.segment4 {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 30px 50px;
+}
+
+.blue-square {
+    border: #3882F6 5px;
+    border-style: solid;
+    display: flex;
+    width: 800px;
+    height: 150px;
+    border-radius: 10px;
+    background-color:#3882F6;
+}
+
+.LHS4 {
+    flex: 3;
+    color: white;
+}
+
+.button2container {
+    flex: 1;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button2 {
+    flex: none;
+    border: white 2px solid;
+}
+
+.LHS4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h2, h3 {
+    padding: 0 15px;
+    margin: 0px;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
 }
